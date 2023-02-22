@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaticFragment"
+    android:layout_weight="1">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/honda_pcx160"
+
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="36dp"
+            android:gravity="center_horizontal"
+            android:text="@string/text_pcx"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button_frag"
+            android:layout_marginTop="380dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40sp"
+            android:layout_marginEnd="40sp"
+            android:text="@string/button_text">
+
+        </Button>
+    </LinearLayout>
+
+</FrameLayout>
