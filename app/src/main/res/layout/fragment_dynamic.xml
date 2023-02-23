@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StaticFragment"
-    android:layout_weight="1">
-
+    tools:context=".DynamicFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -27,17 +25,17 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="424dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="36dp"
+            android:layout_marginBottom="70dp"
             android:gravity="center_horizontal"
-            android:text="@string/text_pcx"
+            android:text="@string/dfrag_text"
             android:textColor="@color/black"
-            android:textSize="19sp"
-            android:layout_marginBottom="240dp">
+            android:textSize="19sp">
+
         </TextView>
 
     </LinearLayout>
-
 </FrameLayout>

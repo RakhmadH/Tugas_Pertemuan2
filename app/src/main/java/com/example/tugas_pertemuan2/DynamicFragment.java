@@ -3,30 +3,27 @@ package com.example.tugas_pertemuan2;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
 
 
-public class StaticFragment extends Fragment {
+public class DynamicFragment extends Fragment {
 
-
-    public StaticFragment() {
+    public DynamicFragment() {
         // Required empty public constructor
     }
-    public static StaticFragment newinstance(){
-        return new StaticFragment();
+
+    public static DynamicFragment newInstance(){
+        return new DynamicFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View fragView = inflater.inflate(R.layout.fragment_static, container, false);
-
-        return fragView;
+        final View d_frag = inflater.inflate(R.layout.fragment_dynamic, container, false);
+        // Inflate the layout for this fragment
+        return d_frag;
     }
 }
